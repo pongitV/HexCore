@@ -1,12 +1,16 @@
-[gd_resource type="Resource" script_class="EnemyConfig" format=3 uid="uid://dfllicfj4ohbe"]
+[gd_resource type="Resource" script_class="EnemyConfig" load_steps=2 format=3 uid="uid://dfllicfj4ohbe"]
 
 [ext_resource type="Script" uid="uid://5pwcnwgrkf4v" path="res://scripts/enemy_config.gd" id="1_config"]
 
 [resource]
 resource_local_to_scene = true
 script = ExtResource("1_config")
-max_alive_by_minute = PackedInt32Array(3, 4, 5, 6, 7)
+max_alive_by_minute = PackedInt32Array(4, 5, 6, 7, 7)
 interval_by_minute = PackedFloat32Array(5, 4, 3.5, 3, 2.5)
+shotgun_minute = 0
+bomb_minute = 1
+mixed_minute = 2
+mixed_max_cannons = 4
 boss_hull_hp = 50.0
 boss_turret_hp = 20.0
 boss_laser_hp = 301.0

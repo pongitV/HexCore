@@ -1,9 +1,8 @@
-[gd_resource type="Resource" script_class="AsteroidConfig" format=3 uid="uid://dnr0a5cu0vbv4"]
+[gd_resource type="Resource" script_class="AsteroidConfig" load_steps=2 format=3 uid="uid://dnr0a5cu0vbv4"]
 
 [ext_resource type="Script" uid="uid://bub5hlb16jrm0" path="res://scripts/asteroid_config.gd" id="1_config"]
 
 [resource]
 script = ExtResource("1_config")
-difficulty_per_minute = 0.1
-difficulty_max = 1.5
+difficulty_per_minute = 0.2
 size_cap = 15
